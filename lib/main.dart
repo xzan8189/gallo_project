@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gallo_project/views/onboarding/onboarding_slideshow_model.dart';
+import 'package:gallo_project/views/onboarding/onboarding_slideshow_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'A Game between Friends'),
+      home: const OnboardingSlideshowWidget(),
     );
   }
 }
