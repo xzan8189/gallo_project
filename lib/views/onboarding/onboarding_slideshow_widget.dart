@@ -320,7 +320,7 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0, 0, 0, 32),
                                             child: Text(
-                                              'Delicious and Nutritious Fresh Meals',
+                                              'Delicious and Nutritious Fresh Meals,\nCook with Simone',
                                               textAlign: TextAlign.center,
                                               style:
                                               FlutterFlowTheme.of(context)
@@ -388,7 +388,7 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                             EdgeInsetsDirectional.fromSTEB(
                                                 0, 48, 0, 0),
                                             child: Text(
-                                              'Savor chef-inspired meals without the hassle of cooking or cleaning up, with our gourmet meal delivery service.',
+                                              'Savor chef-inspired meals without the hassle of cooking or cleaning up, Simone will clean for you.',
                                               textAlign: TextAlign.center,
                                               style:
                                               FlutterFlowTheme.of(context)
